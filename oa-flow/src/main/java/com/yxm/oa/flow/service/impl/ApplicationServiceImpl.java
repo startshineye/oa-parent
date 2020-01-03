@@ -21,6 +21,7 @@ public class ApplicationServiceImpl implements ApplicationService {
 	public void delete(Long id) {
 		// TODO Auto-generated method stub
 		System.out.println("delete ....");
+		System.out.println("modify by ls ....");
 		applicationMapper.delete(id);
 	}
 
