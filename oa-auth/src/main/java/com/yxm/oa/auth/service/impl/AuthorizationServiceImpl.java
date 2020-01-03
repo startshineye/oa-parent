@@ -14,6 +14,7 @@ public class AuthorizationServiceImpl implements AuthorizationService{
 	private AuthorizationMapper mapper;
 
 	public void authorize(Authorization auth) {
+		System.out.println("authorize..."+auth);
 		mapper.authorize(auth);
 		
 	}
