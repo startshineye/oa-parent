@@ -20,11 +20,14 @@ public class AuthorizationServiceImpl implements AuthorizationService{
 	}
 
 	public void unauthorize(Long id) {
+		System.out.println("unauthorize ....");
 		mapper.unauthorize(id);
 		
 	}
 
 	public Authorization findById(Long id) {
+		System.out.println("findById ....");
+		System.out.println("prepare excute end ....");
 		return mapper.findById(id);
 	}
 
