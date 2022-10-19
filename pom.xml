@@ -32,7 +32,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <springframework.release.version>3.2.8.RELEASE</springframework.release.version>
-    <jackson.version>2.9.2</jackson.version>
+    <jackson.version>2.13.4.1</jackson.version>
   </properties>
   
   <dependencyManagement>
